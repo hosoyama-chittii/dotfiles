@@ -187,10 +187,13 @@ gaps inner 20
 gaps outer 5	 
 
 # bluer
-exec picom --experimental-backends
+#exec picom --experimental-backends
 
 #background
 exec feh --bg-scale ~/Pictures/uma_musume/uma_musume.jpg
+
+#fcitx
+exec fcitx
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
